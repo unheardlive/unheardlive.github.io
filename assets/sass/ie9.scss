@@ -1,0 +1,37 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/skel';
+
+
+/* Banner */
+
+	#banner {
+		@include padding(4em, 0);
+		height: 100%;
+		left: 0;
+		position: absolute;
+		text-align: center;
+		top: 0;
+
+		.inner {
+			&:before, &:after {
+				display: none;
+			}
+		}
+
+		ul {
+			li {
+				&.visible {
+				}
+			}
+		}
+	}
+
+/* Wrapper */
+
+	#wrapper {
+		position: absolute;
+		top: 0;
+		left: 35vw;
+	}

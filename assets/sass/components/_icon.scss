@@ -1,0 +1,14 @@
+
+
+/* Icon */
+
+	.icon {
+		@include icon;
+		border-bottom: none;
+		color: inherit;
+		position: relative;
+
+		> .label {
+			display: none;
+		}
+	}
